@@ -1,5 +1,5 @@
 import Provider from "./Provider";
-import { Header } from "./components";
+import { Header, Navbar } from "./components";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Provider>
           <Header />
+          <Navbar />
           {children}
         </Provider>
       </body>

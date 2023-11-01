@@ -10,3 +10,4 @@ export { default as DarkModeSwitch } from './DarkModeSwitch';
 
 /* Movie relate components */
 export { default as MovieResults } from './movie/Results';
+export { default as MovieCard } from './movie/Card';

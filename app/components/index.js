@@ -1,5 +1,6 @@
 'use client';
 
+/* Layout */
 export { default as Header } from './Header';
 export { default as Navbar } from './navbar/Navbar';
 export { default as NavbarItem } from './navbar/NavbarItem';
@@ -11,3 +12,6 @@ export { default as DarkModeSwitch } from './DarkModeSwitch';
 /* Movie relate components */
 export { default as MovieResults } from './movie/Results';
 export { default as MovieCard } from './movie/Card';
+
+/* Searchbox */
+export { default as SearcBox } from './SearchBox';

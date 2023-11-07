@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { MovieResults } from './components';
 
 const API_KEY = process.env.API_KEY;
